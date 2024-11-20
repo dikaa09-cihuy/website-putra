@@ -1,0 +1,80 @@
+body {
+    background-image: url("WhatsApp Image 2024-11-19 at 07.30.05.jpeg");
+    background: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+  }
+  
+  header {
+    background-color: #ff69b4;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  section {
+    padding: 20px;
+    text-align: center;
+    color: #f7f7f7;
+  }
+  
+  button, .button {
+    background-color: #ff69b4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  button:hover, .button:hover {
+    background-color: #ff4d99;
+  }
+  
+  textarea {
+    width: 80%;
+    height: 150px;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: #f7f7f773;
+    border: 1px solid #ddd;
+  }
+  
+  footer {
+    background-color: #ff69b4;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+
+  div{
+    container: 500px;
+    background-color: rgba(255, 255, 255, 0.39);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+      box-shadow: 10px;
+      max-width: 600px;
+      margin: auto;
+      padding: 20px;
+      -webkit-backdrop-filter: blur(10px);
+      cursor: pointer;
+  }
+
+  h1{
+    color: white;
+  }
+
+  p{
+    color: white;
+  }

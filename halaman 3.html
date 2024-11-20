@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Love Animation</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Animasi Love */
+    @keyframes heartbeat {
+      0% { transform: scale(1); }
+      25% { transform: scale(1.1); }
+      50% { transform: scale(1); }
+      75% { transform: scale(1.1); }
+      100% { transform: scale(1); }
+    }
+
+    .love {
+      font-size: 100px;
+      color: red;
+      animation: heartbeat 1s infinite;
+      display: inline-block;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>MAKASIHH YAA UDAH MAU NGISI</h1>
+  </header>
+  
+  <section>
+    <p>ADA LOVE NIH BUAT KAMU!</p>
+    <div class="love">❤️</div>
+  </section>
+
+  <audio controls autoplay>
+    <source src="kiss me.mp3" type="audio/mp3">
+  </audio>
+
+  <footer>
+    <p>FROM PUTRA TO DIAN</p>
+  </footer>
+</body>
+</html>
